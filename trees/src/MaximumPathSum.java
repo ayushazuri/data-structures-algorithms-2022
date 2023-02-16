@@ -43,8 +43,8 @@ public class MaximumPathSum {
     public int getMaximumPathSum(Node node, int[] max){
         if(node == null) return 0;
 
-        int left = getMaximumPathSum(node.left, max);
-        int right = getMaximumPathSum(node.right, max);
+        int left = Math.max(0, getMaximumPathSum(node.left, max)); // To eliminate negative scenarios
+        int right = Math.max(0, getMaximumPathSum(node.right, max));
 
         max[0]= Math.max(max[0], left + right + node.val);
         return node.val + Math.max(left, right);
