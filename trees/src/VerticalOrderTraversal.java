@@ -1,5 +1,4 @@
 import java.util.*;
-import java.util.stream.Collectors;
 
 public class VerticalOrderTraversal {
     private static void accept(Integer k, List<Integer> v) {
