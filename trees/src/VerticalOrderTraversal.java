@@ -1,9 +1,6 @@
 import java.util.*;
 
 public class VerticalOrderTraversal {
-    private static void accept(Integer k, List<Integer> v) {
-        System.out.println(v);
-    }
 
     class Node {
         int val;
