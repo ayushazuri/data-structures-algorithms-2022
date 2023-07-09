@@ -1,3 +1,5 @@
+package org.coding.sorting;
+
 import java.util.Arrays;
 
 public class SelectionSort {

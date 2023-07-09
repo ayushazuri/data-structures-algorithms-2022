@@ -1,3 +1,5 @@
+package org.coding.basics;
+
 import java.util.Arrays;
 
 public class RecursionBasic {
