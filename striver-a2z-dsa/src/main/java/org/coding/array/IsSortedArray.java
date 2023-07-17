@@ -1,9 +1,14 @@
 package org.coding.array;
 
+import org.coding.Timer;
+
 public class IsSortedArray {
     public static void main(String[] args) {
+        Timer timer = new Timer();
+        timer.start();
         int[] a = {2, 4, 10, 2, 5, 7};
         System.out.println(isSortedArray(a));
+        timer.calculateTime();
         int[] b = {1, 2, 30, 99};
         System.out.println(isSortedArray(b));
         int[] c = {1, 1, 1};

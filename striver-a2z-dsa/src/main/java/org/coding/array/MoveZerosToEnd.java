@@ -1,14 +1,20 @@
 package org.coding.array;
 
+import org.coding.Timer;
+
 import java.util.Arrays;
 
 public class MoveZerosToEnd {
     public static void main(String[] args) {
+        Timer timer = new Timer();
+        timer.start();
         int[] a = {1, 0, 2, 0, 0, 3, 4, 0};
         moveZeros(a);
+        timer.calculateTime();
 
         int[] b = {1, 0, 2, 0, 0, 3, 4, 0};
-        moveZerosSecondWay(a);
+        moveZerosSecondWay(a); // We can swap the non-zero and zero as well, instead of just replacing. In this case, another iteration wont be
+        // needed.
     }
 
     private static void moveZeros(int[] a) {
