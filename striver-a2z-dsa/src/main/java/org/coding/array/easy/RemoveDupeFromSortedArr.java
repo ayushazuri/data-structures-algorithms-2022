@@ -1,4 +1,4 @@
-package org.coding.array;
+package org.coding.array.easy;
 
 public class RemoveDupeFromSortedArr {
     public static void main(String[] args) {

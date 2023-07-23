@@ -1,4 +1,4 @@
-package org.coding.array;
+package org.coding.array.easy;
 
 import org.coding.Timer;
 
